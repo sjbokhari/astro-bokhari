@@ -40,7 +40,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/shehryar-jehanzeb-bokhari-296506191/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
