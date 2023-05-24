@@ -7,7 +7,7 @@ title: "about"
 
 lead developer @ [it-excelsus GmbH](https://it-excelsus.de) <br/>
 technical administration @ [Bano Kosmetik](https://bano-kosmetik.de) (in development)<br/>
-<!-- founder of [anjin](https://anjin.dev)<br/>
+<!-- creator and maintainer of [anjin](https://anjin.dev)<br/>
 co-founder of [medetex MAICS](https://medetex.de) <br/> -->
 
 some if my projects which I am currently working on you can find on [github.com/sjbokhari](https://github.com/sjbokhari)
