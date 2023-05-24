@@ -16,7 +16,7 @@
     "deploy": "astro build && jampack ./dist && firebase deploy"
   },
   "dependencies": {
-    "@astrojs/rss": "^2.3.0",
+    "@astrojs/rss": "^2.4.3",
     "@resvg/resvg-js": "^2.4.1",
     "astro": "^2.1.5",
     "firebase": "^9.20.0",
