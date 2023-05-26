@@ -7,6 +7,5 @@ featured: false
 draft: true
 tags:
   - knowledge
-description:
-  making burger buns
+description: making burger buns
 ---

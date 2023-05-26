@@ -7,8 +7,7 @@ featured: true
 draft: false
 tags:
   - doc
-description:
-  From starting with a simple static website to this blog and my goals with it
+description: From starting with a simple static website to this blog and my goals with it
 ---
 
 At the beginning I did not intendet to write a blog because it sounded really not worth the effort. After I bought the domain to my family name i thought
@@ -28,6 +27,5 @@ After some reseach I came along with the framework [hugo](https://github.com/goh
 ## Version 2.0.x: Astro
 
 I really really like the idea of having a side which is partically static and partically dynamic which allows these things I wanted to archieve with my personal space (abyss) in the web. Lets see when I will hopp again to another framework.
-
 
 For now here is nothing much but I want to include my contet here as well. It need some time but soon I will make more and more updates.

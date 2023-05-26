@@ -7,13 +7,13 @@ featured: false
 draft: false
 tags:
   - recipe
-description:
-  making burger buns
+description: making burger buns
 ---
 
 for creating brioche buns i followed this [burger article](https://bbqpit.de/die-perfekten-hamburgerbroetchen/)
 
 you will need the following ingredience (approx. 10 buns):
+
 - 200ml warm water
 - 4 tp milk
 - 1 block fresh yeast
@@ -23,13 +23,15 @@ you will need the following ingredience (approx. 10 buns):
 - 500g flour
 - 1 egg
 
-additional for coating: 
+additional for coating:
+
 - 1 egg
 - 2 tp milk
 - 2 tp water
 - sesame seeds
 
 instructions:
+
 1. add watter, milk and sugar in a bowl
 2. break down yeast into bowl and mix
 3. wait 5 min

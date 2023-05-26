@@ -7,13 +7,13 @@ featured: false
 draft: false
 tags:
   - recipe
-description:
-  simple one pot dish with mushrooms
+description: simple one pot dish with mushrooms
 ---
 
 this dish is usefull when making a simple dish with noodels and mushrooms. its almost like a onepot
 
 ingredience:
+
 - 500g noodels
 - 500g mushrooms
 - 5 cloves of garlic (adjust as liking)

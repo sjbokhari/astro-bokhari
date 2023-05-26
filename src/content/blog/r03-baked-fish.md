@@ -7,14 +7,14 @@ featured: false
 draft: false
 tags:
   - recipe
-description:
-  Fish a la anime
+description: Fish a la anime
 ---
 
 while watching today's menu for emiya family (衛宮さんちの今日のごはん, Emiya-sanchi no Kyō no Gohan) a fate/stay night spinoff they showed a version of baked fish which looked realy good. so i wanted to try it.
 sometimes when watching anime can be usefull.
 
 ingredience:
+
 - a half salmon steak
 - carrots
 - onions
@@ -26,6 +26,7 @@ ingredience:
 the ingredience have no measurement because its a more of approximation of your own liking.
 
 instructions:
+
 1. put salt and pepper powder on the fish over night for a good marination
 2. cut carrots in small sticks, slice the onions, cut the mushrooms into slices
 3. put the vegetable on a sheet of aluminium foil a base for the fish

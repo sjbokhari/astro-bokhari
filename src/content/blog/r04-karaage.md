@@ -7,6 +7,5 @@ featured: false
 draft: true
 tags:
   - recipe
-description:
-  Diffrent way for fried chicken
+description: Diffrent way for fried chicken
 ---
