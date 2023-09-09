@@ -10,30 +10,30 @@ tags:
 description: simple one pot dish with mushrooms
 ---
 
-this dish is usefull when making a simple dish with noodels and mushrooms. its almost like a onepot
+This dish is useful when making a simple dish with noodles and mushrooms. It's almost like a one pot
 
-ingredience:
+Ingredients:
 
-- 500g noodels
+- 500g noodles
 - 500g mushrooms
 - 5 cloves of garlic (adjust as liking)
 - 2 red onions
-- 2 cups of sour/ 200ml creme fraiche
-- 3 tp tomatopaste
-- 3 tp red pepper powder
-- 6 tp vegetable broth
+- 2 cups of sour/ 200ml crème fraîche
+- 3 TP tomato paste
+- 3 TP red pepper powder
+- 6 TP vegetable broth
 - chives
 - parsley
-- adjust flavor as liking (e.g. soy sauce)
+- adjust flavour as liking (e.g. soy sauce)
 
 instructions:
 
 0. boil some noodles and do in parallel:
 1. cut mushrooms, onions, garlic, chives
-2. add to some water, tomato paste, powder, borth and add it to sour/creme fraiche
-3. in some hot oil cook onions and garlic
-4. add the mushrooms cook untill there is no water
+2. add to some water, tomato paste, powder, Borth and add it to sour/crème fraîche
+3. in some hot oil, cook onions and garlic
+4. add the mushrooms, cook until there is no water
 5. add the mixture from (2).
-6. add noodels.
+6. add noodles.
 
-done
+Done

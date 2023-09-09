@@ -10,7 +10,7 @@ tags:
 description: Kururin~
 ---
 
-you cant escape it. Just vibe with it. [Kururin~](https://www.youtube.com/watch?v=NY0ffyEu6uo)
+You can't escape it. Just vibe with it. [Kururin~](https://www.youtube.com/watch?v=NY0ffyEu6uo)
 
 <!-- https://docs.astro.build/en/guides/images/ -->
 <div> 
