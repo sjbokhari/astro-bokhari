@@ -10,9 +10,7 @@ tags:
 description: making burger buns
 ---
 
-For creating brioche buns, I followed this [burger article](https://bbqpit.de/die-perfekten-hamburgerbroetchen/)
-
-you will need the following ingredients (approx. 10 buns):
+For creating brioche buns, you will need the following ingredients (approx. 10 buns):
 
 - 200ml warm water
 - 4 TP milk
@@ -44,3 +42,5 @@ instructions:
 10. preheat oven 200°C (two-sided heat) bake for approx 15-20 min.
 
 Done
+
+source: [burger article](https://bbqpit.de/die-perfekten-hamburgerbroetchen/)
