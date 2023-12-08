@@ -6,9 +6,9 @@ title: "about"
 ## current work:
 
 lead developer @ [it-excelsus GmbH](https://it-excelsus.de) <br/>
-technical administration @ [Bano Kosmetik](https://bano-kosmetik.de) (in development)<br/>
+technical administrator @ [Bano Kosmetik](https://bano-kosmetik.de) (in development)<br/>
 
-creator and maintainer of [anjin solutions](https://anjin.dev)<br/>
+creator and maintainer of [anjin](https://anjin.dev)<br/>
 
 <!-- co-founder of [medetex MAICS](https://medetex.de) <br/> -->
 
