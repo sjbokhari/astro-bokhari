@@ -2645,7 +2645,7 @@ __metadata:
     commitizen: "npm:^4.3.0"
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^8.54.0"
-    eslint-plugin-astro: "npm:^0.29.0"
+    eslint-plugin-astro: "npm:^0.30.0"
     firebase: "npm:^10.4.0"
     fuse.js: "npm:^6.6.2"
     github-slugger: "npm:^2.0.0"
@@ -2661,22 +2661,6 @@ __metadata:
     tailwindcss: "npm:^3.3.6"
   languageName: unknown
   linkType: soft
-
-"astro-eslint-parser@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "astro-eslint-parser@npm:0.15.0"
-  dependencies:
-    "@astrojs/compiler": "npm:^2.0.0"
-    "@typescript-eslint/scope-manager": "npm:^5.0.0"
-    "@typescript-eslint/types": "npm:^5.0.0"
-    astrojs-compiler-sync: "npm:^0.3.0"
-    debug: "npm:^4.3.4"
-    eslint-visitor-keys: "npm:^3.0.0"
-    espree: "npm:^9.0.0"
-    semver: "npm:^7.3.8"
-  checksum: a158f419c2315b00ee9f93309b208ebdf21d261eca7b676fd280ea7846962838d9bc4929c60a21a3f376b97b454c426ddf2aeb495381144252041a582dd1410d
-  languageName: node
-  linkType: hard
 
 "astro-eslint-parser@npm:^0.16.0":
   version: 0.16.0
@@ -4138,19 +4122,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:^0.29.0":
-  version: 0.29.0
-  resolution: "eslint-plugin-astro@npm:0.29.0"
+"eslint-compat-utils@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "eslint-compat-utils@npm:0.1.2"
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 023fe1422eb5dfebe71e118fe144836f28c06b1f4d55ef4c1c42ec2dbfa3e09f19287b0092881aad307429cf247fec9ade603e050392033106d26bc981d82ee5
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-astro@npm:^0.30.0":
+  version: 0.30.0
+  resolution: "eslint-plugin-astro@npm:0.30.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
     "@typescript-eslint/types": "npm:^5.25.0"
-    astro-eslint-parser: "npm:^0.15.0"
+    astro-eslint-parser: "npm:^0.16.0"
+    eslint-compat-utils: "npm:^0.1.2"
     postcss: "npm:^8.4.14"
     postcss-selector-parser: "npm:^6.0.10"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: db6250f089f55ec103bba536f83e3f7ad340b33f17c3cfa9630da79e64d5ef8580e4adae982b6c0e361137f6f90c372b9eec4309214aef2dc7b53c271149b8f7
+  checksum: 0831f97ed871156926fa2ae106cd2a6905149086e79e16bb90f71ef69e8ab160e0dce5cbbaf4230cf84b035ca72b0c77277406fff23dc6cccd923a231801e7dc
   languageName: node
   linkType: hard
 
