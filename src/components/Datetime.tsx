@@ -1,4 +1,5 @@
 import { LOCALE } from "@config";
+import React from "react";
 
 export interface Props {
   datetime: string | Date;
