@@ -36,4 +36,3 @@ Instructions:
 7. now you can cook it in a pan for around 30 minutes on medium heat. Alternatively, you can cook it in an oven on two-sided heat at 150°C for at least 45 to 60 minutes. The time is really not the issue, it can also stay longer but keep that in mind to avoid overcooking.
 
 Done
-

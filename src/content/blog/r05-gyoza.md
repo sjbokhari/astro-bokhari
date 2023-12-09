@@ -10,7 +10,7 @@ tags:
 description: Japanese dumplings
 ---
 
-You can make the wrapper for gyoza  yourself [hard](/posts/r051-gyoza) or buy it as frozen pack.
+You can make the wrapper for gyoza yourself [hard](/posts/r051-gyoza) or buy it as frozen pack.
 For making dumplings, you will need the following ingredients:
 
 - 20 Gyoza Wrappers
