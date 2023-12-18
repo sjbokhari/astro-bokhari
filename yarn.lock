@@ -64,17 +64,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.2.2":
+"@astrojs/compiler@npm:^2.2.2, @astrojs/compiler@npm:^2.3.4":
   version: 2.3.4
   resolution: "@astrojs/compiler@npm:2.3.4"
   checksum: 445b2faed9e7a8856126ce66477c97fc646b7cf9a259f43a060e73851ebf8b1fd31a2b8484b5c2ab0e1cc49c2cdff1c2eb5b79ca79ca28748e1fde53dab65431
-  languageName: node
-  linkType: hard
-
-"@astrojs/compiler@npm:^2.3.2":
-  version: 2.3.2
-  resolution: "@astrojs/compiler@npm:2.3.2"
-  checksum: e883e5d8c1a314b32e5435fe774d6b65c43a9d9b986d5540dbeb95a21a180a9cf9c095c9abe4bfc9d925f9db76862d1a345e40b3c85a121d00daf84b123286cb
   languageName: node
   linkType: hard
 
@@ -121,9 +114,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@astrojs/markdown-remark@npm:4.0.0"
+"@astrojs/markdown-remark@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@astrojs/markdown-remark@npm:4.0.1"
   dependencies:
     "@astrojs/prism": "npm:^3.0.0"
     github-slugger: "npm:^2.0.0"
@@ -139,9 +132,7 @@ __metadata:
     unified: "npm:^11.0.4"
     unist-util-visit: "npm:^5.0.0"
     vfile: "npm:^6.0.1"
-  peerDependencies:
-    astro: ^4.0.0-beta.0
-  checksum: 4ebe2379852a4d004e7fb1a9c04e528826b8d8816a6f4b8d8fda666633bec94a3f30a94f1d07e105ff5610bc454f2e1d469666a17b4471a4dd8cf42c1f5dd59b
+  checksum: f8f91c49040ec6057d7b9b672159471701a52bac14b77b1dc08f35c55874a3548f18c20d4e86e3e4130955b80396627c32a52d61049cffb5e64a50eb38bedda0
   languageName: node
   linkType: hard
 
@@ -2836,7 +2827,7 @@ __metadata:
     "@types/react": "npm:^18.2.45"
     "@types/react-dom": "npm:^18.2.17"
     "@typescript-eslint/parser": "npm:^6.13.0"
-    astro: "npm:4.0.3"
+    astro: "npm:4.0.6"
     astro-eslint-parser: "npm:^0.16.0"
     commitizen: "npm:^4.3.0"
     cz-conventional-changelog: "npm:^3.3.0"
@@ -2874,13 +2865,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.0.3":
-  version: 4.0.3
-  resolution: "astro@npm:4.0.3"
+"astro@npm:4.0.6":
+  version: 4.0.6
+  resolution: "astro@npm:4.0.6"
   dependencies:
-    "@astrojs/compiler": "npm:^2.3.2"
+    "@astrojs/compiler": "npm:^2.3.4"
     "@astrojs/internal-helpers": "npm:0.2.1"
-    "@astrojs/markdown-remark": "npm:4.0.0"
+    "@astrojs/markdown-remark": "npm:4.0.1"
     "@astrojs/telemetry": "npm:3.0.4"
     "@babel/core": "npm:^7.23.3"
     "@babel/generator": "npm:^7.23.3"
@@ -2945,7 +2936,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 18f2f1ab6999b7cd5e04920b52cd189005d3041ee92fef96b24369a36d9f3226d3564f2ae1ae3861665c680cbed0e767c4f808c35780213713728b306bb63160
+  checksum: 0d8c2a84a4982768b1ff8b388f77d84c80bfd5a124518ecb27346f536cf0b80e775288999d5320ae228a7807e7fec00780f21448fb98f8b01bc5c1e823338d0e
   languageName: node
   linkType: hard
 
