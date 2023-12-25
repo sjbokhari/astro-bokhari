@@ -145,9 +145,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:3.0.7":
-  version: 3.0.7
-  resolution: "@astrojs/react@npm:3.0.7"
+"@astrojs/react@npm:3.0.8":
+  version: 3.0.8
+  resolution: "@astrojs/react@npm:3.0.8"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.2.0"
     ultrahtml: "npm:^1.3.0"
@@ -156,7 +156,7 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6
     react: ^17.0.2 || ^18.0.0
     react-dom: ^17.0.2 || ^18.0.0
-  checksum: 10616e3e08bc8ce65153dd3a853954cce9dbbb12bf08f7630dad52881ece2422b473b1ee38181a2164275646ccd1a242c45ef0dbfe845f59eb5281fed5387583
+  checksum: 4532bec324bbd46e66807d6709ffec8022bbe3b73de8dd8f8f54f20f7a723c0dfb98708a3ffa13faf09363441c18d314ad34d987052d5497f29a16ed145f5f1f
   languageName: node
   linkType: hard
 
@@ -3175,7 +3175,7 @@ __metadata:
   resolution: "astro-bokhari@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.3.4"
-    "@astrojs/react": "npm:3.0.7"
+    "@astrojs/react": "npm:3.0.8"
     "@astrojs/rss": "npm:4.0.1"
     "@astrojs/sitemap": "npm:^3.0.3"
     "@astrojs/tailwind": "npm:5.0.3"
