@@ -711,9 +711,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@divriots/jampack@npm:^0.23.1":
-  version: 0.23.1
-  resolution: "@divriots/jampack@npm:0.23.1"
+"@divriots/jampack@npm:^0.23.2":
+  version: 0.23.2
+  resolution: "@divriots/jampack@npm:0.23.2"
   dependencies:
     "@divriots/cheerio": "npm:1.0.0-rc.12"
     "@proload/core": "npm:^0.3.3"
@@ -740,7 +740,7 @@ __metadata:
     unpic: "npm:^3.16.0"
   bin:
     jampack: dist/index.js
-  checksum: ba66260ec41b1113cc1ff20e0e7cd35cd4da95e6c95d2ca0c7e49af49afd5e4f6684bae1ed3381c7b78a520567af9cd2bcbbe62b3b931fdb82cec67d49f3fd40
+  checksum: 586beff8b56cc573e5a6248ef4e3ea00b5e94575dd6b7c5aca50db7052b86b4f2c48c7250860a58425b5d01a7cb84137b04e64b9a6c19e7119cbd9145a0bcdfc
   languageName: node
   linkType: hard
 
@@ -3180,7 +3180,7 @@ __metadata:
     "@astrojs/sitemap": "npm:^3.0.3"
     "@astrojs/tailwind": "npm:5.1.0"
     "@astrojs/upgrade": "npm:^0.2.2"
-    "@divriots/jampack": "npm:^0.23.1"
+    "@divriots/jampack": "npm:^0.23.2"
     "@resvg/resvg-js": "npm:^2.6.0"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/github-slugger": "npm:^2.0.0"
