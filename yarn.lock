@@ -209,9 +209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/upgrade@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@astrojs/upgrade@npm:0.2.1"
+"@astrojs/upgrade@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@astrojs/upgrade@npm:0.2.2"
   dependencies:
     "@astrojs/cli-kit": "npm:^0.2.3"
     semver: "npm:^7.5.4"
@@ -219,7 +219,7 @@ __metadata:
     which-pm-runs: "npm:^1.1.0"
   bin:
     upgrade: upgrade.mjs
-  checksum: d8c477889ab6ba0aba9a1275ad0f91c0ab6d54f840f0d51732a0ec600b59aca37b855f5e8ddaac7398155e39866d6911a3eb8ddbf4a71b2fd71854b11e83114f
+  checksum: 5b04020bae07ffcc57e5e3f0c0e17a2c1e23b6c34677f4963d057501672330a34f889603d3d7605cdf624107a0de90426d2ab60c096912adbb41fa7b1d227c47
   languageName: node
   linkType: hard
 
@@ -3179,7 +3179,7 @@ __metadata:
     "@astrojs/rss": "npm:4.0.1"
     "@astrojs/sitemap": "npm:^3.0.3"
     "@astrojs/tailwind": "npm:5.1.0"
-    "@astrojs/upgrade": "npm:^0.2.1"
+    "@astrojs/upgrade": "npm:^0.2.2"
     "@divriots/jampack": "npm:^0.23.1"
     "@resvg/resvg-js": "npm:^2.6.0"
     "@tailwindcss/typography": "npm:^0.5.10"
