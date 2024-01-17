@@ -3204,7 +3204,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.18"
     "@typescript-eslint/parser": "npm:^6.18.0"
     astro: "npm:4.1.2"
-    astro-eslint-parser: "npm:^0.16.0"
+    astro-eslint-parser: "npm:^0.16.1"
     commitizen: "npm:^4.3.0"
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^8.56.0"
@@ -3238,6 +3238,23 @@ __metadata:
     espree: "npm:^9.0.0"
     semver: "npm:^7.3.8"
   checksum: 420f75d15e899c4ca54b3b7ea3f1416c334b9cc68a6142f31253f80bb948e02241e70a23456bcb5014edd448f47d34230d9b3d5cee2e9938c803e8101587d77c
+  languageName: node
+  linkType: hard
+
+"astro-eslint-parser@npm:^0.16.1":
+  version: 0.16.1
+  resolution: "astro-eslint-parser@npm:0.16.1"
+  dependencies:
+    "@astrojs/compiler": "npm:^2.0.0"
+    "@typescript-eslint/scope-manager": "npm:^5.0.0"
+    "@typescript-eslint/types": "npm:^5.0.0"
+    astrojs-compiler-sync: "npm:^0.3.0"
+    debug: "npm:^4.3.4"
+    entities: "npm:^4.5.0"
+    eslint-visitor-keys: "npm:^3.0.0"
+    espree: "npm:^9.0.0"
+    semver: "npm:^7.3.8"
+  checksum: cca15b384b4cd5c33d54d5440bcc1ce5322dac1e9c8333b747eb7a29f209ca3bb6e6ec856d7b00e574de89fe1787cd2fa85628df7886c152e762ab6a6ac8c5e7
   languageName: node
   linkType: hard
 
