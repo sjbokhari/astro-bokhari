@@ -1,5 +1,6 @@
-.husky
+.astro
 .vscode
+dist
 node_modules
 public
-dist
+src/env.d.ts
