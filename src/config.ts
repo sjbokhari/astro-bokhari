@@ -1,143 +1,80 @@
-import type { Site, SocialObjects } from "./types";
+import type { Site, Page, Links, Socials } from "@types";
 
+// Global
 export const SITE: Site = {
-  website: "https://bokhari.de/",
-  author: "Shehryar Jehanzeb Bokhari",
-  desc: "A minimal blog theme written in astro.",
-  title: "bokhari",
-  ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
-  postPerPage: 7,
+  TITLE: "ボカリ",
+  DESCRIPTION: "A minimal blog theme written in astro. sphere migration",
+  AUTHOR: "Shehryar Jehanzeb Bokhari",
 };
 
-export const LOCALE = ["en-EN"]; // set to [] to use the environment default
-
-export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
-  width: 216,
-  height: 46,
+// Work Page
+export const WORK: Page = {
+  TITLE: "Work",
+  DESCRIPTION: "Places I have worked.",
 };
 
-export const SOCIALS: SocialObjects = [
+// Blog Page
+export const BLOG: Page = {
+  TITLE: "Blog",
+  DESCRIPTION: "Writing on topics I am passionate about.",
+};
+
+// Projects Page
+export const PROJECTS: Page = {
+  TITLE: "Projects",
+  DESCRIPTION: "Recent projects I have worked on.",
+};
+
+// Search Page
+export const SEARCH: Page = {
+  TITLE: "Search",
+  DESCRIPTION: "Search all posts and projects by keyword.",
+};
+
+// Links
+export const LINKS: Links = [
   {
-    name: "Github",
-    href: "https://github.com/sjbokhari",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
+    TEXT: "Home",
+    HREF: "/",
   },
   {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: false,
+    TEXT: "Work",
+    HREF: "/work",
   },
   {
-    name: "Instagram",
-    href: "https://instagram.com/_shehryar",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: false,
+    TEXT: "Blog",
+    HREF: "/blog",
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/shehryar-jehanzeb-bokhari-296506191/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    TEXT: "Projects",
+    HREF: "/projects",
+  },
+];
+
+// Socials
+export const SOCIALS: Socials = [
+  {
+    NAME: "Email",
+    ICON: "email",
+    TEXT: "shehryar@bokhari.de",
+    HREF: "mailto:shehryar@bokhari.de",
   },
   {
-    name: "Mail",
-    href: "mailto:shehryar@bokhari.de",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: true,
+    NAME: "Github",
+    ICON: "github",
+    TEXT: "sjbokhari",
+    HREF: "https://github.com/sjbokhari",
   },
   {
-    name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    NAME: "LinkedIn",
+    ICON: "linkedin",
+    TEXT: "Shehryar Bokhari",
+    HREF: "https://www.linkedin.com/in/shehryar-jehanzeb-bokhari-296506191/",
   },
-  {
-    name: "Twitch",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitch`,
-    active: false,
-  },
-  {
-    name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
-    active: false,
-  },
-  {
-    name: "WhatsApp",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on WhatsApp`,
-    active: false,
-  },
-  {
-    name: "Snapchat",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Snapchat`,
-    active: false,
-  },
-  {
-    name: "Pinterest",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Pinterest`,
-    active: false,
-  },
-  {
-    name: "TikTok",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on TikTok`,
-    active: false,
-  },
-  {
-    name: "CodePen",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on CodePen`,
-    active: false,
-  },
-  {
-    name: "Discord",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Discord`,
-    active: false,
-  },
-  {
-    name: "GitLab",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on GitLab`,
-    active: false,
-  },
-  {
-    name: "Reddit",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Reddit`,
-    active: false,
-  },
-  {
-    name: "Skype",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Skype`,
-    active: false,
-  },
-  {
-    name: "Steam",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Steam`,
-    active: false,
-  },
-  {
-    name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Telegram`,
-    active: false,
-  },
-  {
-    name: "Mastodon",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Mastodon`,
-    active: false,
-  },
+  // {
+  //   NAME: "Twitter",
+  //   ICON: "twitter-x",
+  //   TEXT: "markhorn_dev",
+  //   HREF: "https://twitter.com/markhorn_dev",
+  // },
 ];
