@@ -1,7 +1,7 @@
-import type { CollectionEntry } from "astro:content";
-import { createEffect, createSignal, For } from "solid-js";
-import ArrowCard from "@components/ArrowCard";
-import { cn } from "@lib/utils";
+import type { CollectionEntry } from "astro:content"
+import { createEffect, createSignal, For } from "solid-js"
+import ArrowCard from "@components/ArrowCard"
+import { cn } from "@lib/utils"
 
 type Props = {
   tags: string[];
@@ -9,10 +9,10 @@ type Props = {
 };
 
 export default function Projects({ data, tags }: Props) {
-  const [filter, setFilter] = createSignal(new Set<string>());
+  const [filter, setFilter] = createSignal(new Set<string>())
   const [projects, setProjects] = createSignal<CollectionEntry<"projects">[]>(
     []
-  );
+  )
 
   createEffect(() => {
     setProjects(
@@ -23,8 +23,8 @@ export default function Projects({ data, tags }: Props) {
           )
         )
       )
-    );
-  });
+    )
+  })
 
   function toggleTag(tag: string) {
     setFilter(
@@ -32,7 +32,7 @@ export default function Projects({ data, tags }: Props) {
         new Set(
           prev.has(tag) ? [...prev].filter(t => t !== tag) : [...prev, tag]
         )
-    );
+    )
   }
 
   return (
@@ -97,5 +97,5 @@ export default function Projects({ data, tags }: Props) {
         </div>
       </div>
     </div>
-  );
+  )
 }

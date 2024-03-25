@@ -1,9 +1,9 @@
-import { createSignal } from "solid-js";
+import { createSignal } from "solid-js"
 
 function CounterButton() {
-  const [count, setCount] = createSignal(0);
+  const [count, setCount] = createSignal(0)
 
-  const increment = () => setCount(count() + 1);
+  const increment = () => setCount(count() + 1)
 
   return (
     <div class="flex gap-4 items-center">
@@ -17,7 +17,7 @@ function CounterButton() {
         Clicked {count()} {count() === 1 ? "time" : "times"}
       </div>
     </div>
-  );
+  )
 }
 
-export default CounterButton;
+export default CounterButton
