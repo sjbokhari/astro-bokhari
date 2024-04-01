@@ -843,9 +843,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@divriots/jampack@npm:^0.23.2":
-  version: 0.23.2
-  resolution: "@divriots/jampack@npm:0.23.2"
+"@divriots/jampack@npm:^0.23.4":
+  version: 0.23.4
+  resolution: "@divriots/jampack@npm:0.23.4"
   dependencies:
     "@divriots/cheerio": "npm:1.0.0-rc.12"
     "@proload/core": "npm:^0.3.3"
@@ -872,7 +872,7 @@ __metadata:
     unpic: "npm:^3.16.0"
   bin:
     jampack: dist/index.js
-  checksum: 586beff8b56cc573e5a6248ef4e3ea00b5e94575dd6b7c5aca50db7052b86b4f2c48c7250860a58425b5d01a7cb84137b04e64b9a6c19e7119cbd9145a0bcdfc
+  checksum: 4d48e68ef8cf4a9305c157af7df64c5a201f602723e91cf054128df3c6511472765e28118e29b5631d504d933d6908de0dfa40f64b0d4e09011666bc878cfa9e
   languageName: node
   linkType: hard
 
@@ -3835,7 +3835,7 @@ __metadata:
     "@astrojs/solid-js": "npm:^4.0.1"
     "@astrojs/tailwind": "npm:5.1.0"
     "@astrojs/upgrade": "npm:^0.2.2"
-    "@divriots/jampack": "npm:^0.23.2"
+    "@divriots/jampack": "npm:^0.23.4"
     "@react-three/drei": "npm:^9.102.6"
     "@react-three/fiber": "npm:^8.15.19"
     "@resvg/resvg-js": "npm:^2.6.0"
