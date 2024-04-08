@@ -3868,7 +3868,7 @@ __metadata:
     solid-js: "npm:^1.8.15"
     tailwind-merge: "npm:^2.2.2"
     tailwindcss: "npm:^3.4.1"
-    three: "npm:^0.162.0"
+    three: "npm:^0.163.0"
     three-globe: "npm:^2.31.0"
   languageName: unknown
   linkType: soft
@@ -11548,10 +11548,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three@npm:^0.162.0":
-  version: 0.162.0
-  resolution: "three@npm:0.162.0"
-  checksum: ca97c30ecca94defa932ae8cb9423af66cd9b31f2d3c93b902d8b1022caaf322a022e59eca9e4ae0fd09deb03b3614c5f5114163cf9d0efac501bdc27c10445d
+"three@npm:^0.163.0":
+  version: 0.163.0
+  resolution: "three@npm:0.163.0"
+  checksum: 6e38928faa00580259302b7515229ca2a710f05ed4672e1c56f19f30f76d02bac535dcbd8d4ef4445f7a8436ffe5939b0c70d61ea01d4fc7b31c794cbd10bfaf
   languageName: node
   linkType: hard
 
