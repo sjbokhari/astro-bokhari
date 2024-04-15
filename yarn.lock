@@ -3135,14 +3135,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.67":
-  version: 18.2.67
-  resolution: "@types/react@npm:18.2.67"
+"@types/react@npm:^18.2.78":
+  version: 18.2.78
+  resolution: "@types/react@npm:18.2.78"
   dependencies:
     "@types/prop-types": "npm:*"
-    "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: d8c49476ca8c96cbbcd8b1fd1bf881396dbf548fdadb0b6463d0bb262e5013e0a239994842d09e74f9c21dcaf620555bc1f1485f8578b0498af87bc06291f5a2
+  checksum: 5eb8e1dd98c29aeddf40b90f466d1a9ce83b113d42a096633d632b834e7ae9821f24ba7999928de9d98cca37764532a7ea35355a8103a377d8baa750f1841b5c
   languageName: node
   linkType: hard
 
@@ -3841,7 +3840,7 @@ __metadata:
     "@resvg/resvg-js": "npm:^2.6.0"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/github-slugger": "npm:^2.0.0"
-    "@types/react": "npm:^18.2.67"
+    "@types/react": "npm:^18.2.78"
     "@types/react-dom": "npm:^18.2.18"
     "@types/three": "npm:^0"
     "@typescript-eslint/eslint-plugin": "npm:^7.3.1"
