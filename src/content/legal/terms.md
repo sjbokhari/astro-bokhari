@@ -1,34 +1,52 @@
 ---
-title: "Terms of Use"
-date: "03/07/2024"
+title: "Legal Notice"
+date: "01.01.2024"
 ---
 
-Please read these Terms of Use ("Terms", "Terms of Use") carefully before using the [Your Website URL] website (the "Service") operated by [Your Company Name] ("us", "we", or "our").
+# Impressum
 
-#### Agreement to Terms
+Information according to § 5 TMG <br>
+<br>
+Shehryar Jehanzeb Bokhari <br>
+Zum Brommenhof 6 <br>
+60594 Frankfurt am Main <br>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+**Represented by:**
+Shehryar Jehanzeb Bokhari
 
-#### Intellectual Property Rights
+**Contact:**
+Phone: +49 173 52 55 420 <br>
+Email: [shehryar@bokhari.de](mailto:shehryar@bokhari.de) <br>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+**Responsible for content according to § 55 Abs. 2 RStV:**
+Shehryar Jehanzeb Bokhari <br>
+Zum Brommenhof 6 <br>
+60594 Frankfurt am Main <br>
 
-#### User Representations
+## Disclaimer:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+### Liability for content
 
-#### Links to Other Websites
+The content of our pages was created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages in accordance with § 7 Abs.1 TMG (German Telemedia Act) and general laws. According to §§ 8 to 10 TMG, we as a service provider are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information according to general laws remain unaffected. However, liability in this regard is only possible from the time of knowledge of a concrete infringement. If we become aware of any such infringements, we will remove the content immediately.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+### Liability for links
 
-#### Termination
+Our offer contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking. However, a permanent control of the content of the linked pages is not reasonable without concrete indications of an infringement. If we become aware of any legal infringements, we will remove such links immediately.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+### Copyright
 
-#### Governing Law
+The content and works created by the site operators on these pages are subject to German copyright law. The reproduction, editing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+### Data protection
 
-#### Changes to These Terms of Use
+The use of our website is generally possible without providing personal data. As far as personal data (e.g., name, address, or email addresses) is collected on our site, this is always done on a voluntary basis as far as possible. This data will not be passed on to third parties without your express consent. We would like to point out that data transmission over the Internet (e.g., communication by email) can have security vulnerabilities. A complete protection of data against access by third parties is not possible. The use of contact data published within the scope of the imprint obligation by third parties for sending unsolicited advertising and information materials is hereby expressly prohibited. The operators of the pages expressly reserve the right to take legal action in the event of the unsolicited sending of advertising information, such as spam emails.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet massa ut neque consequat congue. Sed id ipsum vitae sem imperdiet suscipit. Nulla facilisi. Morbi quis nibh at nunc pulvinar rhoncus. Proin porttitor dapibus dolor, id fermentum urna eleifend et. In feugiat pretium erat nec vestibulum.
+### Google Analytics
+
+This website uses Google Analytics, a web analytics service provided by Google Inc. ("Google"). Google Analytics uses "cookies", which are text files placed on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
+
+### Google AdSense
+
+This website uses Google AdSense, a web advertising service provided by Google Inc., USA ("Google"). Google AdSense uses "cookies" (text files) that are stored on your computer and allow an analysis of your use of the website. Google AdSense also uses so-called "web beacons" (small invisible graphics) to collect information. Through the use of web beacons, simple actions such as visitor traffic to the website can be recorded and collected. The information generated by the cookie and/or web beacon about your use of this website (including your IP address) is transmitted to a Google server in the USA and stored there. Google will use this information to evaluate your use of the website in relation to the advertisements, to compile reports on website activity and advertisements for website operators, and to provide other services related to website activity and internet usage. Google may also transfer this information to third parties if this is required by law or if third parties process this data on behalf of Google. Google will not associate your IP address with any other data held by Google. You can prevent the storage of cookies on your hard drive and the display of web beacons by selecting "do not accept cookies" in your browser settings (in MS Internet Explorer under "Extras > Internet Options > Privacy > Settings"; in Firefox under "Extras > Settings > Privacy > Cookies"); however, please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.
+
+Website Impressum created by [impressum-generator.de](https://www.impressum-generator.de) from [Kanzlei Hasselbach](https://www.kanzlei-hasselbach.de/).
