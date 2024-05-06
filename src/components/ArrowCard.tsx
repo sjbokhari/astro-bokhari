@@ -1,5 +1,5 @@
-import { formatDate } from "@lib/utils";
-import type { CollectionEntry } from "astro:content";
+import { formatDate } from "@lib/utils"
+import type { CollectionEntry } from "astro:content"
 
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
@@ -62,5 +62,5 @@ export default function ArrowCard({ entry, pill }: Props) {
         />
       </svg>
     </a>
-  );
+  )
 }
