@@ -1,11 +1,10 @@
 ---
-company: "Apple"
-role: "Software Engineer"
-dateStart: "01/01/2020"
-dateEnd: "11/27/2022"
+# company: "Apple"
+# role: "Machine Learning / Support Engineer (contractor) @ TEKsystems"
+company: "TBA"
+role: "TBA"
+dateStart: "01.01.2024"
+dateEnd: "28.06.2025"
 ---
 
-Voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor. Sit amet consectetur adipisicing elit. Iure illo neque tempora.
-
-- Sit amet consectetur adipisicing elit. Iure illo neque tempora.
-- Quibusdam, debitis voluptatum, lorem ipsum
+comming soon
