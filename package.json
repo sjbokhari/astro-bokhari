@@ -41,7 +41,7 @@
     "@astrojs/react": "3.0.9",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.0.3",
-    "@astrojs/solid-js": "^4.0.1",
+    "@astrojs/solid-js": "^4.3.0",
     "@astrojs/tailwind": "5.1.0",
     "@astrojs/upgrade": "^0.2.2",
     "@divriots/jampack": "^0.24.4",
