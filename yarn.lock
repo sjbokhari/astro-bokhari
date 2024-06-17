@@ -251,14 +251,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/solid-js@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@astrojs/solid-js@npm:4.0.1"
+"@astrojs/solid-js@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@astrojs/solid-js@npm:4.3.0"
   dependencies:
-    vite-plugin-solid: "npm:^2.8.0"
+    vite-plugin-solid: "npm:^2.10.2"
   peerDependencies:
+    solid-devtools: ^0.30.1
     solid-js: ^1.8.5
-  checksum: 49c2e98fcb8e15b6fd1bc393c84ba5363b9e8bb483ef431fd973f67da260d5fb2e8bfaf5d300134b23dd74b667cb99bf35c0bef65bbf9d628f916dd6e299cebb
+  peerDependenciesMeta:
+    solid-devtools:
+      optional: true
+  checksum: 22176f1df0825c22bb94e384c94389e4fb02aac4422be6025c1286c8f82035916c32c43c04a89bb511ea5c4f56cb44e3d90e1ef81af6134c468c9903cfe731c5
   languageName: node
   linkType: hard
 
@@ -4153,7 +4157,7 @@ __metadata:
     "@astrojs/react": "npm:3.0.9"
     "@astrojs/rss": "npm:^4.0.5"
     "@astrojs/sitemap": "npm:^3.0.3"
-    "@astrojs/solid-js": "npm:^4.0.1"
+    "@astrojs/solid-js": "npm:^4.3.0"
     "@astrojs/tailwind": "npm:5.1.0"
     "@astrojs/upgrade": "npm:^0.2.2"
     "@divriots/jampack": "npm:^0.24.4"
@@ -12325,7 +12329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-solid@npm:^2.8.0":
+"vite-plugin-solid@npm:^2.10.2":
   version: 2.10.2
   resolution: "vite-plugin-solid@npm:2.10.2"
   dependencies:
