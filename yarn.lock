@@ -4178,7 +4178,7 @@ __metadata:
     commitizen: "npm:^4.3.0"
     cz-conventional-changelog: "npm:^3.3.0"
     eslint: "npm:^8.57.0"
-    eslint-plugin-astro: "npm:^1.1.2"
+    eslint-plugin-astro: "npm:^1.2.2"
     firebase: "npm:^10.9.0"
     framer-motion: "npm:^11.0.18"
     fuse.js: "npm:^7.0.0"
@@ -6011,9 +6011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "eslint-plugin-astro@npm:1.1.2"
+"eslint-plugin-astro@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "eslint-plugin-astro@npm:1.2.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -6025,7 +6025,7 @@ __metadata:
     postcss-selector-parser: "npm:^6.0.10"
   peerDependencies:
     eslint: ">=8.57.0"
-  checksum: 858b0c13c2976e75c9d9ff113507684b2b647f33f0e3185b1b48ba88e45ee94c37116051d66fc759a094656f707af4e233e0644ff96035c1351c500052b7b900
+  checksum: 8a43093cddd3240c9a9b9067848f593d75079a0efb079852b2c20abd693e96774d2103fe8a3cf2a82fb3809c4240e04d9e1b4a549559f95cc7e5b24916b37772
   languageName: node
   linkType: hard
 
