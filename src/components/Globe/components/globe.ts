@@ -6,30 +6,30 @@ import { Globe as ThreeGlobe } from "../systems/Globe"
 import { genRandomNumbers, hexToRgb } from "../systems/utils"
 
 interface GlobeProps {
-  pointSize?: number;
-  atmosphereColor?: string;
-  showAtmosphere?: boolean;
-  atmosphereAltitude?: number;
-  polygonColor?: string;
-  globeColor?: string;
-  emissive?: string;
-  emissiveIntensity?: number;
-  shininess?: number;
-  flightTime?: number;
-  flightLength?: number;
-  rings?: number;
-  maxRings?: number;
+  pointSize?: number
+  atmosphereColor?: string
+  showAtmosphere?: boolean
+  atmosphereAltitude?: number
+  polygonColor?: string
+  globeColor?: string
+  emissive?: string
+  emissiveIntensity?: number
+  shininess?: number
+  flightTime?: number
+  flightLength?: number
+  rings?: number
+  maxRings?: number
 }
 
 class Globe {
   instance: ThreeGlobe
   pointsData: {
-    size: number;
-    order: number;
-    color: (t: number) => string;
-    label: string;
-    lat: number;
-    lng: number;
+    size: number
+    order: number
+    color: (t: number) => string
+    label: string
+    lat: number
+    lng: number
   }[]
 
   pointSize: number
@@ -89,7 +89,7 @@ class Globe {
     this.maxRings = props.maxRings || Globe.defaultProps.maxRings
 
     if (flights.length > 0) {
-      flights.map((flight) => this.flights.push(flight))
+      flights.map(flight => this.flights.push(flight))
     } else {
       this.flights = flightsDefault.flights
     }
@@ -115,7 +115,7 @@ class Globe {
     setTimeout(() => {
       this.instance
         .hexPolygonsData(
-          countries.features.filter((d) => d.properties.ISO_A2 !== "AQ")
+          countries.features.filter(d => d.properties.ISO_A2 !== "AQ")
         )
         .hexPolygonResolution(3)
         .hexPolygonMargin(0.7)
@@ -132,29 +132,29 @@ class Globe {
     setTimeout(() => {
       this.instance
         .arcsData(this.flights)
-        .arcStartLat((d) => (d as { startLat: number }).startLat * 1)
-        .arcStartLng((d) => (d as { startLng: number }).startLng * 1)
-        .arcEndLat((d) => (d as { endLat: number }).endLat * 1)
-        .arcEndLng((d) => (d as { endLng: number }).endLng * 1)
+        .arcStartLat(d => (d as { startLat: number }).startLat * 1)
+        .arcStartLng(d => (d as { startLng: number }).startLng * 1)
+        .arcEndLat(d => (d as { endLat: number }).endLat * 1)
+        .arcEndLng(d => (d as { endLng: number }).endLng * 1)
         .arcColor((e: unknown) => (e as { color: string }).color)
-        .arcAltitude((e) => {
+        .arcAltitude(e => {
           return (e as { arcAlt: number }).arcAlt * 1
         })
         .arcStroke(() => {
           return [0.32, 0.28, 0.3][Math.round(Math.random() * 2)]
         })
         .arcDashLength(this.flightLength)
-        .arcDashInitialGap((e) => (e as { order: number }).order * 1)
+        .arcDashInitialGap(e => (e as { order: number }).order * 1)
         .arcDashGap(15)
         .arcDashAnimateTime(() => this.flightTime)
         .pointsData(this.pointsData)
-        .pointColor((e) => (e as { color: string }).color)
+        .pointColor(e => (e as { color: string }).color)
         .pointsMerge(true)
         .pointAltitude(0.0)
         .pointRadius(0.25)
         .ringsData([])
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        .ringColor((e : any) => (t: number) => e.color(t))
+        .ringColor((e: any) => (t: number) => e.color(t))
         .ringMaxRadius(this.maxRings)
         .ringPropagationSpeed(this.RING_PROPAGATION_SPEED)
         .ringRepeatPeriod((this.flightTime * this.flightLength) / this.rings)
@@ -205,9 +205,9 @@ class Globe {
     // remove duplicates for same lat and lng
     this.pointsData = points.filter(
       (v, i, a) =>
-        a.findIndex((v2) =>
+        a.findIndex(v2 =>
           ["lat", "lng"].every(
-            (k) => v2[k as "lat" | "lng"] === v[k as "lat" | "lng"]
+            k => v2[k as "lat" | "lng"] === v[k as "lat" | "lng"]
           )
         ) === i
     )
@@ -215,10 +215,10 @@ class Globe {
 
   _buildMaterial() {
     const globeMaterial = this.instance.globeMaterial() as unknown as {
-      color: Color;
-      emissive: Color;
-      emissiveIntensity: number;
-      shininess: number;
+      color: Color
+      emissive: Color
+      emissiveIntensity: number
+      shininess: number
     }
     globeMaterial.color = new Color(this.globeColor)
     globeMaterial.emissive = new Color(this.emissive)

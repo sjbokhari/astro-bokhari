@@ -1,12 +1,12 @@
 only
 import { useEffect, useRef, useState } from "react"
 //import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three"
-import {Color} from "three"
+import { Color } from "three"
 import ThreeGlobe from "three-globe"
 import {
   useThree,
   type Object3DNode,
-//  Canvas,
+  //  Canvas,
   extend,
 } from "@react-three/fiber"
 //import { OrbitControls } from "@react-three/drei"
@@ -14,7 +14,7 @@ import countries from "@/data/globe.json"
 import only from "astro/runtime/client/only.js"
 declare module "@react-three/fiber" {
   interface ThreeElements {
-    threeGlobe: Object3DNode<ThreeGlobe, typeof ThreeGlobe>;
+    threeGlobe: Object3DNode<ThreeGlobe, typeof ThreeGlobe>
   }
 }
 
@@ -25,44 +25,44 @@ const RING_PROPAGATION_SPEED = 3
 //const cameraZ = 300
 
 type Position = {
-  order: number;
-  startLat: number;
-  startLng: number;
-  endLat: number;
-  endLng: number;
-  arcAlt: number;
-  color: string;
-};
+  order: number
+  startLat: number
+  startLng: number
+  endLat: number
+  endLng: number
+  arcAlt: number
+  color: string
+}
 
 export type GlobeConfig = {
-  pointSize?: number;
-  globeColor?: string;
-  showAtmosphere?: boolean;
-  atmosphereColor?: string;
-  atmosphereAltitude?: number;
-  emissive?: string;
-  emissiveIntensity?: number;
-  shininess?: number;
-  polygonColor?: string;
-  ambientLight?: string;
-  directionalLeftLight?: string;
-  directionalTopLight?: string;
-  pointLight?: string;
-  arcTime?: number;
-  arcLength?: number;
-  rings?: number;
-  maxRings?: number;
+  pointSize?: number
+  globeColor?: string
+  showAtmosphere?: boolean
+  atmosphereColor?: string
+  atmosphereAltitude?: number
+  emissive?: string
+  emissiveIntensity?: number
+  shininess?: number
+  polygonColor?: string
+  ambientLight?: string
+  directionalLeftLight?: string
+  directionalTopLight?: string
+  pointLight?: string
+  arcTime?: number
+  arcLength?: number
+  rings?: number
+  maxRings?: number
   initialPosition?: {
-    lat: number;
-    lng: number;
-  };
-  autoRotate?: boolean;
-  autoRotateSpeed?: number;
-};
+    lat: number
+    lng: number
+  }
+  autoRotate?: boolean
+  autoRotateSpeed?: number
+}
 
 interface WorldProps {
-  globeConfig: GlobeConfig;
-  data: Position[];
+  globeConfig: GlobeConfig
+  data: Position[]
 }
 
 let numbersOfRings = [0]
@@ -70,11 +70,11 @@ let numbersOfRings = [0]
 export function Globe({ globeConfig, data }: WorldProps) {
   const [globeData, setGlobeData] = useState<
     | {
-        size: number;
-        order: number;
-        color: (t: number) => string;
-        lat: number;
-        lng: number;
+        size: number
+        order: number
+        color: (t: number) => string
+        lat: number
+        lng: number
       }[]
     | null
   >(null)
@@ -109,10 +109,10 @@ export function Globe({ globeConfig, data }: WorldProps) {
     if (!globeRef.current) return
 
     const globeMaterial = globeRef.current.globeMaterial() as unknown as {
-      color: Color;
-      emissive: Color;
-      emissiveIntensity: number;
-      shininess: number;
+      color: Color
+      emissive: Color
+      emissiveIntensity: number
+      shininess: number
     }
     globeMaterial.color = new Color(globeConfig.globeColor)
     globeMaterial.emissive = new Color(globeConfig.emissive)

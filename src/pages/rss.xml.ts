@@ -3,8 +3,8 @@ import { getCollection } from "astro:content"
 import { SITE } from "@config"
 
 type Context = {
-  site: string;
-};
+  site: string
+}
 
 export async function GET(context: Context) {
   const posts = await getCollection("blog")

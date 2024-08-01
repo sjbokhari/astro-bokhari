@@ -25,7 +25,7 @@ export default defineConfig({
     solidJs(),
     tailwind({ applyBaseStyles: false }),
   ],
-});
+})
 ```
 
 ### Next, Let's configure the Site

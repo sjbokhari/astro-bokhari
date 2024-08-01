@@ -5,8 +5,8 @@ class Globe extends threeGlobe {
     waitForGlobeReady,
     animateIn,
   }: {
-    waitForGlobeReady?: boolean;
-    animateIn?: boolean;
+    waitForGlobeReady?: boolean
+    animateIn?: boolean
   }) {
     super({ waitForGlobeReady, animateIn })
   }

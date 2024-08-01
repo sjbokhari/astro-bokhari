@@ -8,6 +8,7 @@ date: "01.01.2024"
 Information according to § 5 TMG <br>
 <br>
 Shehryar Jehanzeb Bokhari <br>
+
 <!-- Zum Brommenhof 6 <br>
 60594 Frankfurt am Main <br> -->
 
@@ -20,6 +21,7 @@ Email: [shehryar@bokhari.de](mailto:shehryar@bokhari.de) <br>
 
 **Responsible for content according to § 55 Abs. 2 RStV:**
 Shehryar Jehanzeb Bokhari <br>
+
 <!-- Zum Brommenhof 6 <br>
 60594 Frankfurt am Main <br> -->
 

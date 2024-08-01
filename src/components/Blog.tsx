@@ -4,9 +4,9 @@ import ArrowCard from "@components/ArrowCard"
 import { cn } from "@lib/utils"
 
 type Props = {
-  tags: string[];
-  data: CollectionEntry<"blog">[];
-};
+  tags: string[]
+  data: CollectionEntry<"blog">[]
+}
 
 export default function Blog({ data, tags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>())

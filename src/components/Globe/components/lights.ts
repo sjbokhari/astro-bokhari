@@ -1,11 +1,11 @@
 import { AmbientLight, DirectionalLight, PointLight } from "three"
 
 type CreateLightsProps = {
-  ambient?: string;
-  directionalLeft?: string;
-  directionalTop?: string;
-  point?: string;
-};
+  ambient?: string
+  directionalLeft?: string
+  directionalTop?: string
+  point?: string
+}
 
 function createLights({
   ambient = "#000000",

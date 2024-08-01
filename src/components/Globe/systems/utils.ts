@@ -48,10 +48,10 @@ export function pointOfView(
     return curGeoCoords
   } else {
     // Setter
-    const finalGeoCoords = Object.assign({}, curGeoCoords, geoCoords);
+    const finalGeoCoords = Object.assign({}, curGeoCoords, geoCoords)
 
-    ["lat", "lng", "altitude"].forEach(
-      (p) =>
+    ;["lat", "lng", "altitude"].forEach(
+      p =>
         (finalGeoCoords[p as "lat" | "lng" | "altitude"] =
           +finalGeoCoords[p as "lat" | "lng" | "altitude"])
     ) // coerce coords to number
@@ -83,9 +83,9 @@ export function pointOfView(
     lng,
     altitude,
   }: {
-    lat: number;
-    lng: number;
-    altitude: number;
+    lat: number
+    lng: number
+    altitude: number
   }) {
     cameraPosition(globe.getCoords(lat, lng, altitude))
   }

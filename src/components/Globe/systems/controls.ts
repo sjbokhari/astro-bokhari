@@ -3,10 +3,10 @@ import { cameraZ } from "./config"
 import { Orbit } from "./Orbit"
 
 interface CreateControlsProps {
-  camera: PerspectiveCamera;
-  canvas: HTMLCanvasElement;
-  autoRotate?: boolean;
-  autoRotateSpeed?: number;
+  camera: PerspectiveCamera
+  canvas: HTMLCanvasElement
+  autoRotate?: boolean
+  autoRotateSpeed?: number
 }
 
 function createControls({
