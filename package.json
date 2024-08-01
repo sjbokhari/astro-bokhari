@@ -22,7 +22,7 @@
     "@resvg/resvg-js": "^2.6.2",
     "@tweenjs/tween.js": "^18.6.4",
     "@types/react-dom": "^18.2.18",
-    "astro": "4.10.2",
+    "astro": "4.13.0",
     "firebase": "^10.9.0",
     "framer-motion": "^11.0.18",
     "fuse.js": "^7.0.0",
@@ -36,12 +36,12 @@
     "three-globe": "^2.31.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.4.1",
-    "@astrojs/mdx": "^2.1.1",
-    "@astrojs/react": "3.0.9",
-    "@astrojs/rss": "^4.0.5",
-    "@astrojs/sitemap": "^3.0.3",
-    "@astrojs/solid-js": "^4.3.0",
+    "@astrojs/check": "0.9.1",
+    "@astrojs/mdx": "3.1.3",
+    "@astrojs/react": "3.6.1",
+    "@astrojs/rss": "4.0.7",
+    "@astrojs/sitemap": "3.1.6",
+    "@astrojs/solid-js": "4.4.0",
     "@astrojs/tailwind": "5.1.0",
     "@astrojs/upgrade": "^0.2.2",
     "@divriots/jampack": "^0.24.4",
@@ -74,5 +74,5 @@
       "prettier --plugin-search-dir=. --write"
     ]
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.3.1"
 }
