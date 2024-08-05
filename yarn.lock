@@ -4267,7 +4267,7 @@ __metadata:
     react: "npm:^18.3.1"
     react-dom: "npm:^18.2.0"
     remark-toc: "npm:^9.0.0"
-    satori: "npm:^0.10.13"
+    satori: "npm:^0.10.14"
     solid-js: "npm:^1.8.19"
     tailwind-merge: "npm:^2.2.2"
     tailwindcss: "npm:^3.4.1"
@@ -10748,9 +10748,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"satori@npm:^0.10.13":
-  version: 0.10.13
-  resolution: "satori@npm:0.10.13"
+"satori@npm:^0.10.14":
+  version: 0.10.14
+  resolution: "satori@npm:0.10.14"
   dependencies:
     "@shuding/opentype.js": "npm:1.4.0-beta.0"
     css-background-parser: "npm:^0.1.0"
@@ -10762,7 +10762,7 @@ __metadata:
     parse-css-color: "npm:^0.2.1"
     postcss-value-parser: "npm:^4.2.0"
     yoga-wasm-web: "npm:^0.3.3"
-  checksum: 10c0/21258f971463f6dfb7c64a11d5407507fc210c728adda5df13630f461b169a6b49a67b0cb8a41861616817b6816a11bc8a64a5d75e399d164a2a8130e74901e5
+  checksum: 10c0/874e7c869bf33e4d2337fc15a47a3ff97dc592370c2a599e0ad08ac87ba6b4b2800549adae81bbd7c12b773a5cf91ca726be543b7c43a132cab173d0e49e85c2
   languageName: node
   linkType: hard
 
