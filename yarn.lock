@@ -173,9 +173,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:3.6.1":
-  version: 3.6.1
-  resolution: "@astrojs/react@npm:3.6.1"
+"@astrojs/react@npm:3.6.2":
+  version: 3.6.2
+  resolution: "@astrojs/react@npm:3.6.2"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.3.1"
     ultrahtml: "npm:^1.5.3"
@@ -184,7 +184,7 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6
     react: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0-beta
-  checksum: 10c0/3a165dfd6204ac0c9adfcb257aa9e3639068694e5bee49910d7197814e6c0b29d27339ae3c3efcd2fc09e12dc9e4813f2892ded6dcb03e31f082b8f875def116
+  checksum: 10c0/161f458ecc6b6174bc85326a80889170150953c0343dcb2f141caa8e5406a00b0eddf9cadf5c39b7742538c091550af9d221186ae2817a005a1586f562918c24
   languageName: node
   linkType: hard
 
@@ -4231,7 +4231,7 @@ __metadata:
   dependencies:
     "@astrojs/check": "npm:0.9.1"
     "@astrojs/mdx": "npm:3.1.3"
-    "@astrojs/react": "npm:3.6.1"
+    "@astrojs/react": "npm:3.6.2"
     "@astrojs/rss": "npm:4.0.7"
     "@astrojs/sitemap": "npm:3.1.6"
     "@astrojs/solid-js": "npm:4.4.0"
