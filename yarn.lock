@@ -867,7 +867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.24.0":
+"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.17.8":
   version: 7.24.1
   resolution: "@babel/runtime@npm:7.24.1"
   dependencies:
@@ -4269,7 +4269,7 @@ __metadata:
     remark-toc: "npm:^9.0.0"
     satori: "npm:^0.10.13"
     solid-js: "npm:^1.8.19"
-    tailwind-merge: "npm:^2.2.2"
+    tailwind-merge: "npm:^2.5.2"
     tailwindcss: "npm:^3.4.1"
     three: "npm:^0.165.0"
     three-globe: "npm:^2.31.0"
@@ -11463,12 +11463,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "tailwind-merge@npm:2.2.2"
-  dependencies:
-    "@babel/runtime": "npm:^7.24.0"
-  checksum: 10c0/68a5e199848a467aed4f8d1a8d7b6a5b583ff72f1d2801e018bf245eaa41e6564b63ead9e2b708a214cefbd843970c5e0a21754d5f2a20e2c1238e25955685ce
+"tailwind-merge@npm:^2.5.2":
+  version: 2.5.2
+  resolution: "tailwind-merge@npm:2.5.2"
+  checksum: 10c0/e43a9a468f7ba4ed5b4a399558d96d6270a3d8131dca111cccc803e71cc23885060d18d721f312a24fff0a75c567dbb30b2a87c18aba25eb4255df197d8170ab
   languageName: node
   linkType: hard
 
