@@ -50,7 +50,7 @@
     "@types/react": "^18.3.1",
     "@types/three": "^0",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.0",
+    "@typescript-eslint/parser": "^8.6.0",
     "astro-eslint-parser": "^1.0.2",
     "clsx": "^2.1.0",
     "commitizen": "^4.3.0",
