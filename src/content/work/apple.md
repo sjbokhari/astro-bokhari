@@ -1,10 +1,8 @@
 ---
-# company: "Apple"
-# role: "Machine Learning / Support Engineer (contractor) @ TEKsystems"
-company: "TBA"
-role: "TBA"
+company: "Apple"
+role: "Machine Learning / Support Engineer (contractor) via TEKsystems"
 dateStart: "01.01.2024"
-dateEnd: "28.06.2025"
+dateEnd: "30.09.2024"
 ---
 
 comming soon
